@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"><script src="https://kit.fontawesome.com/f5c69af826.js" crossorigin="anonymous"></script>
     <title>ERIC PORTFOLIO</title>
+    <link rel="stylesheet" href="./styles/main.css">
 </head>
 
 <body>
@@ -17,13 +18,13 @@
 
     <nav>
     <ul>
-        <li><a href="">Home</a></li>
-        <li><a href="">About</a></li>
-        <li><a href="">Services</a></li>
-        <li><a href="">Portfolio</a></li>
-        <li><a href="">Skill</a></li>
-        <li><a href="">Contact</a></li>
-         <li><a href="">Blog</a></li>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#Skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+         <li><a href="#blog">Blog</a></li>
     </ul>
     </nav>
 
@@ -153,7 +154,7 @@
             <h2>Portfolio Showcase</h2>
             <p>We’re a WordPress Theme Development company . With more than ten years of knowledge and expertise.</p>
          </div>
-
+ 
          <!-- bottom part -->
           <div>
             <button>All Work</button>
@@ -167,25 +168,24 @@
           
            <div class="show-column1"><img src="./images/my image/art direction rock.jpg" alt="project image"></div>
 
-           <div class="img"><img src="./images/my image/branding in time.jpg" alt="project image"></div>
+           <div class="show-column1"><img src="./images/my image/branding in time.jpg" alt="project image"></div>
 
-           <div class="img"><img src="./images/my image/design mockup.jpg" alt="project image"></div>
+           <div class="show-column1"><img src="./images/my image/design mockup.jpg" alt="project image"></div>
 
-           <div class="img"><img src="./images/my image/web treasure.jpg" alt="project image"></div>
+           <div class="show-column1"><img src="./images/my image/web treasure.jpg" alt="project image"></div>
 
-           <div class="img"><img src="./images/my image/design pencil.jpg" alt="project image"></div>
+           <div class="show-column1"><img src="./images/my image/design pencil.jpg" alt="project image"></div>
 
-           <div class="img"><img src="./images/my image/branding handcfaft.jpg" alt="project image"></div>
+           <div class="show-column1"><img src="./images/my image/branding handcfaft.jpg" alt="project image"></div>
 
-            <div class="img"><img src="./images/my image/web focus.jpg" alt="project image"></div>
+            <div class="show-column1"><img src="./images/my image/web focus.jpg" alt="project image"></div>
 
-            <div class="img"><img src="./images/my image/art direction daily note.jpg" alt="project image"></div>
+            <div class="show-column1"><img src="./images/my image/art direction daily note.jpg" alt="project image"></div>
            
     </section>
 
     <!--skills section-->
     <section id="skills">
-
     <!--left side-->
     <div>
         <p>I'm expert on</p>
@@ -195,6 +195,8 @@
 
 
     </div>
+
+
     <!--right side-->
      <div>
         <div>
@@ -217,19 +219,115 @@
             <h3>SEO</h3>
             <p>90%</p>
         </div>
-
-    <div>
-
     </div>
     </section>
 
     <!--contact section-->
-    <section id="contact"></section>
+    <section id="contact">
+        <!-- top part -->
+         <div>
+            <p>HAVE ANY QUERY</p>
+            <h2>Contact Me</h2>
+            <p>I'm a passionate web developer with over 5 years of experience in creating stunning websites and applications. My journey in web development started with a simple curiosity about how websites work, and it quickly turned into a lifelong passion. I specialize in front-end development, using technologies like HTML, CSS, and JavaScript to bring designs to life. Over the years, I've had the privilege of working on a wide range of projects, from small business websites to large-scale applications. My goal is to create user-friendly and visually appealing digital experiences that leave a lasting impression.</p>
+         
+            <div>
+               <p>
+                <strong>Locate Us:</strong><br>King street, melbourne, Victoria <br>
+                <strong>Office:</strong><br>+1 023 454 345 <br>
+                <strong>Get in touch</strong><br>contact@exampe.com
+               </p>
+            </div>
+        </div>
+
+         <!-- bottom part -->
+          <form action="#">
+            <input type="text" name="name" placeholder="Your Name" required><br><br>
+            <input type="email" name="email" placeholder="Your Email" required><br><br>
+            <input type="text" name="subject" placeholder="Subject" required><br><br>
+            <textarea name="message"  placeholder="Your Message" required></textarea><br><br>
+            <button type="submit">Send Message</button>
+          </form>
+    </section>
+
+    <!--blog section-->
+    <section id="blog">
+
+        <!-- top part-->
+        <div>
+            <p>Latest Post</p>
+            <h2>Latest Blog</h2>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum standard dummy text.</p>
+        </div>
+
+
+        <!-- bottom part -->
+          <article>
+        <img src="./images/blog.jpg" alt="Blog Image 1">
+
+        <div>
+            <span>By <strong>admin</strong></span>
+            <span> | Tuesday</span>
+            <span> | 3 comments</span>
+        </div>
+
+        <h2>Ten Secrets You Will Not Want To Know</h2>
+
+        <a href="#">Read More →</a>
+    </article>
+
+
+    <!-- Blog Post 2 -->
+    <article>
+        <img src="./images/blog-2.jpg" alt="Blog Image 2">
+
+        <div>
+            <span>By <strong>admin</strong></span>
+            <span> | Wednesday</span>
+            <span> | 3 comments</span>
+        </div>
+
+        <h2>You’ve gotta dance like there’s nobody watching</h2>
+
+        <a href="#">Read More →</a>
+    </article>
+
+
+    <!-- Blog Post 3 -->
+    <article>
+        <img src="./images/blog-1.jpg" alt="Blog Image 3">
+
+        <div>
+            <span>By <strong>admin</strong></span>
+            <span> | Saturday</span>
+            <span> | 3 comments</span>
+        </div>
+
+        <h2>I must explain to you how all this mistaken idea</h2>
+
+        <a href="#">Read More →</a>
+    </article>
+    </section>
 
  </main>
 
  <!-- footer part -->
-  <footer></footer>
+  <footer>
+    <div>
+        <img src="./images/logo.png" alt="Logo">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor inci- didunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exe- rcitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    </div>
+    <div>
+        <div class="social"><i class="fa-brands fa-facebook"></i></div>
+        <div class="social"><i class="fa-brands fa-x-twitter"></i></div>
+        <div class="social"><i class="fa-brands fa-instagram"></i></div>
+        <div class="social"><i class="fa-brands fa-pinterest"></i></div>
+
+    </div>
+
+    <div>
+        <p>&copy; 2026 Your Company Name. All rights reserved.</p>
+    </div>
+  </footer>
 
 
 </body>
