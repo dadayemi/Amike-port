@@ -3,331 +3,435 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"><script src="https://kit.fontawesome.com/f5c69af826.js" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/f5c69af826.js" crossorigin="anonymous"></script>
     <title>ERIC PORTFOLIO</title>
     <link rel="stylesheet" href="./styles/main.css">
 </head>
 
 <body>
-<!-- header part -->
- <header>
-    <div>
-        <img src="images/logo.png" alt="amike PORTFOLIO">
-    </div>
-
-
-    <nav>
-    <ul>
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#services">Services</a></li>
-        <li><a href="#portfolio">Portfolio</a></li>
-        <li><a href="#Skills">Skills</a></li>
-        <li><a href="#contact">Contact</a></li>
-         <li><a href="#blog">Blog</a></li>
-    </ul>
-    </nav>
-
- </header>
-
-<!-- main part -->
- <main>
-    <!--home section-->
-    <section id="home">
-        <!-- left side -->
+    <!-- header part -->
+    <header class="horizontal">
         <div>
-            <!-- social icon -->
-            <div>
-                <div>
-                    <div class="social">
-                        <i class="fa-brands fa-facebook-f"></i>
-                    </div>
-                    <div class="social">
-                        <i class="fa-brands fa-twitter"></i>
-                    </div>
-                    <div class="social">
-                        <i class="fa-brands fa-pinterest"></i>
-                    </div>
-                    <div class="social">
-                        <i class="fa-brands fa-instagram"></i>
-                    </div>
-                    <div class="social">
-                        <i class="fa-brands fa-behance"></i>
-                    </div>
-                </div>
-            </div>
-
-            <h1>Hi, I'm Amike </h1>
-            <p>i'm Jonathan , professional web developer with long time experience in this field </p>
-
-                <div>
-                    <button>My Portfolio</button>
-                    <button>Hire me</button>
-                </div>
-
+            <img id="brandimg" src="./images/logo.png" alt="amike PORTFOLIO">
         </div>
 
 
-        <!-- right side -->
-         <div>
-            <img src="./images/man-01.png" alt="profile image">
-         </div>
-    </section>
+        <nav>
+            <ul class="horizontal">
+                <li class="nav-item"><a href="#home">Home</a></li>
+                <li class="nav-item"><a href="#about">About</a></li>
+                <li class="nav-item"><a href="#services">Services</a></li>
+                <li class="nav-item"><a href="#portfolio">Portfolio</a></li>
+                <li class="nav-item"><a href="#Skills">Skills</a></li>
+                <li class="nav-item"><a href="#contact">Contact</a></li>
+                <li class="nav-item"><a href="#blog">Blog</a></li>
+            </ul>
+        </nav>
 
-    <!--services section-->
-    <section id="services">
-        <!-- top part -->
-         <div>
-            <p>services</p>
-            <h2>My Services</h2>
-            <p>Here are the services I offer to my clients. best in class quality and services</p>
-         </div>
+        <div id="mobile-menu">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+
+    </header>
+
+    <!-- main part -->
+    <main>
+        <!--home section-->
+        <section id="home" class="horizontal">
+            <!-- left side -->
+            <div id="left">
+                <!-- social icon -->
+                <div>
+                    <div class="horizontal socialcont">
+                        <div class="social">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </div>
+                        <div class="social">
+                            <i class="fa-brands fa-twitter"></i>
+                        </div>
+                        <div class="social">
+                            <i class="fa-brands fa-pinterest"></i>
+                        </div>
+                        <div class="social">
+                            <i class="fa-brands fa-instagram"></i>
+                        </div>
+                        <div class="social">
+                            <i class="fa-brands fa-behance"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <h1 id="title" class="boldtitle">Hi, I'm Amike </h1>
+                <p id="description">i'm Jonathan , professional web developer with long time experience in this field
+                </p>
+
+                <div>
+                    <button class="btnMain">My Portfolio</button>
+                    <button class="btn">Hire me</button>
+                </div>
+
+            </div>
+
+
+            <!-- right side -->
+            <div>
+                <img id="profileimg" src="./images/man-01.png" alt="profile image">
+            </div>
+        </section>
+
+        <!--services section-->
+        <section id="services-section">
+            <!-- top part -->
+            <div class="services-top">
+                <p id="red">SERVICES</p>
+                <h2 class="services-header">My Services</h2>
+                <p class="services-paragraph">Here are the services I offer to my clients. best in class quality and
+                    services</p>
+                <div class="underline"></div>
+            </div>
 
 
             <!-- bottom part -->
-             <div class="card">
-                <i class="fa-brands fa-github"></i>
-                <h3>Web Development</h3>
-                <p>Custom websites ands web applications built with modern technologies and best practices.</p>
-             </div>
+            <div class="horizontal services-container">
+                <div class="card">
+                    <i class="fa-brands fa-github"></i>
+                    <h3>Web Development</h3>
+                    <p>Custom websites ands web applications built with modern technologies and best practices.</p>
+                </div>
 
-             <div class="card">
-                <i class="fa-solid fa-cube"></i>
-                <h3>Web Design</h3>
-                <p>Beautiful and responsive websites designed with user experience and modern aesthetics in mind.</p>
-             </div>
-             
+                <div class="card">
+                    <i class="fa-solid fa-cube"></i>
+                    <h3>Web Design</h3>
+                    <p>Beautiful and responsive websites designed with user experience and modern aesthetics in mind.
+                    </p>
+                </div>
+
                 <div class="card">
                     <i class="fa-solid fa-file-video"></i>
                     <h3>Video Editing</h3>
                     <p>Professional video editing services for films, commercials, and promotional content.</p>
                 </div>
 
-             <div class="card">
-                <i class="fa-solid fa-camera"></i>
-                <h3>Photography</h3>
-                <p>Professional photography services for events, portraits, and commercial projects.</p>
-             </div>
-
-             <div class="card">
-                <i class="fa-brands fa-apple"></i>
-                <h3>App Developing</h3>
-                <p>Custom mobile applications for iOS and Android platforms with modern UI/UX design.</p>
-             </div>
-
-             <div class="card">
-                <i class="fa-brands fa-yoast"></i>
-                <h3>SEO Expert</h3>
-                <p>Optimizing websites for search engines to improve visibility and drive organic traffic.</p>
-             </div>
-             <div class="card"></div>
-    </section>
-
-    <!--about section-->
-    <section id="about">
-            <!-- top part -->
-                <div>
-                    <h2>About Me</h2>
-                    <p>I'm a passionate web developer with over 5 years of experience in creating stunning websites and applications. My journey in web development started with a simple curiosity about how websites work, and it quickly turned into a lifelong passion. I specialize in front-end development, using technologies like HTML, CSS, and JavaScript to bring designs to life. Over the years, I've had the privilege of working on a wide range of projects, from small business websites to large-scale applications. My goal is to create user-friendly and visually appealing digital experiences that leave a lasting impression.</p>
+                <div class="card">
+                    <i class="fa-solid fa-camera"></i>
+                    <h3>Photography</h3>
+                    <p>Professional photography services for events, portraits, and commercial projects.</p>
                 </div>
 
-                <div>
-                    <img src="images/me-01-oiscg5p6xhb0wn2ew54ye53hi21rk30p2dh5pmlw5c.png" alt="owners picture">
+                <div class="card">
+                    <i class="fa-brands fa-apple"></i>
+                    <h3>App Developing</h3>
+                    <p>Custom mobile applications for iOS and Android platforms with modern UI/UX design.</p>
                 </div>
-    
-                <!-- bottom part -->
-                 <h3>Hi there</h3>
-                 <p>I'm Jonathan, a professional web developer with over 5 years of experience in creating stunning websites and applications. I specialize in front-end development using modern technologies like HTML, CSS, and JavaScript.</p>
-            <div>
 
-                <p>Name: Jonathan Doe</p>
-                <p>Phone: +1 023 454 345</p>
-                <p>Email: example@domain.com</p>
-                <p>LinkedIn: Jonathan_123</p>
-    </section>
-    
-
-    <!--portfolio section-->
-    <section id="portfolio">
-        <!-- top part -->
-         <div>
-            <h2>Portfolio Showcase</h2>
-            <p>We’re a WordPress Theme Development company . With more than ten years of knowledge and expertise.</p>
-         </div>
- 
-         <!-- bottom part -->
-          <div>
-            <button>All Work</button>
-            <button>Art Direction</button>
-            <button>Branding</button>
-            <button>Design</button>
-            <button>Web</button>
-          </div>
-
-          
-          
-           <div class="show-column1"><img src="./images/my image/art direction rock.jpg" alt="project image"></div>
-
-           <div class="show-column1"><img src="./images/my image/branding in time.jpg" alt="project image"></div>
-
-           <div class="show-column1"><img src="./images/my image/design mockup.jpg" alt="project image"></div>
-
-           <div class="show-column1"><img src="./images/my image/web treasure.jpg" alt="project image"></div>
-
-           <div class="show-column1"><img src="./images/my image/design pencil.jpg" alt="project image"></div>
-
-           <div class="show-column1"><img src="./images/my image/branding handcfaft.jpg" alt="project image"></div>
-
-            <div class="show-column1"><img src="./images/my image/web focus.jpg" alt="project image"></div>
-
-            <div class="show-column1"><img src="./images/my image/art direction daily note.jpg" alt="project image"></div>
-           
-    </section>
-
-    <!--skills section-->
-    <section id="skills">
-    <!--left side-->
-    <div>
-        <p>I'm expert on</p>
-        <h2>Let's work together</h2>
-        <p>I'm a passionate web developer with over 5 years of experience in creating stunning websites and applications. My journey in web development started with a simple curiosity about how websites work, and it quickly turned into a lifelong passion. I specialize in front-end development, using technologies like HTML, CSS, and JavaScript to bring designs to life. Over the years, I've had the privilege of working on a wide range of projects, from small business websites to large-scale applications. My goal is to create user-friendly and visually appealing digital experiences that leave a lasting impression.</p>
-        <button>Hire Me Now</button>
-
-
-    </div>
-
-
-    <!--right side-->
-     <div>
-        <div>
-            <h3>Node JS</h3>
-            <p>88%</p>
-            
-        </div>
-
-        <div>
-            <h3>Phyton</h3>
-            <p>81%</p>
-        </div>
-
-        <div>
-            <h3>Laravel</h3>
-            <p>70%</p>
-        </div>
-
-        <div>
-            <h3>SEO</h3>
-            <p>90%</p>
-        </div>
-    </div>
-    </section>
-
-    <!--contact section-->
-    <section id="contact">
-        <!-- top part -->
-         <div>
-            <p>HAVE ANY QUERY</p>
-            <h2>Contact Me</h2>
-            <p>I'm a passionate web developer with over 5 years of experience in creating stunning websites and applications. My journey in web development started with a simple curiosity about how websites work, and it quickly turned into a lifelong passion. I specialize in front-end development, using technologies like HTML, CSS, and JavaScript to bring designs to life. Over the years, I've had the privilege of working on a wide range of projects, from small business websites to large-scale applications. My goal is to create user-friendly and visually appealing digital experiences that leave a lasting impression.</p>
-         
-            <div>
-               <p>
-                <strong>Locate Us:</strong><br>King street, melbourne, Victoria <br>
-                <strong>Office:</strong><br>+1 023 454 345 <br>
-                <strong>Get in touch</strong><br>contact@exampe.com
-               </p>
+                <div class="card">
+                    <i class="fa-brands fa-yoast"></i>
+                    <h3>SEO Expert</h3>
+                    <p>Optimizing websites for search engines to improve visibility and drive organic traffic.</p>
+                </div>
             </div>
-        </div>
+        </section>
 
-         <!-- bottom part -->
-          <form action="#">
-            <input type="text" name="name" placeholder="Your Name" required><br><br>
-            <input type="email" name="email" placeholder="Your Email" required><br><br>
-            <input type="text" name="subject" placeholder="Subject" required><br><br>
-            <textarea name="message"  placeholder="Your Message" required></textarea><br><br>
-            <button type="submit">Send Message</button>
-          </form>
-    </section>
+        <!--about section-->
+        <section id="about-section">
+            <!-- top part -->
+            <div class="about-top">
+                <h2 id="about-bold">About Me</h2>
+                <p class="about-paragraph">I'm a passionate web developer with over 5 years of experience in creating
+                    stunning websites and applications.My journey in web development started with a simple curiosity
+                    about how websites work, and it quickly turned into a lifelong passion</p>
+            </div>
 
-    <!--blog section-->
-    <section id="blog">
+            <div class="underline"></div>
 
-        <!-- top part-->
+
+
+            <div class="about-area">
+
+                <div class="about-container">
+                    <div id="about-image">
+                        <img src="images/me-01-oiscg5p6xhb0wn2ew54ye53hi21rk30p2dh5pmlw5c.png" alt="owners picture">
+                    </div>
+
+                    <!-- bottom part -->
+
+                    <div class="text-part">
+                        <h3 id="bottom-firstline" class="horizontal">Hi there</h3>
+
+                        <p class="bottom-paragraph">I'm Jonathan, a professional web developer with over 5 years of
+                            experience in creating stunning websites and applications.</p>
+
+
+
+
+                        <div class="about-form">
+                            <div>
+                                <strong>Name: </strong>
+                                <p>Jonathan Doe</p>
+                            </div>
+
+                            <div>
+                                <strong>Phone: </strong>
+                                <p>+1 023 454 345</p>
+                            </div>
+
+
+
+                            <div>
+                                <strong>Address: </strong>
+                                <p>King street, melbourne, Victoria</p>
+                            </div>
+
+
+                            <div>
+                                <strong>Email: </strong>
+                                <p>example@domain.com</p>
+                            </div>
+
+                            <div>
+                                <strong>LinkedIn: </strong>
+                                <p>Jonathan_123</p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+        </section>
+
+
+        <!--portfolio section-->
+        <section id="portfolio">
+            <!-- top part -->
+            <div class="portfolio-header">
+                <h1 id="portfolio-title">Portfolio<br>Showcase</h1>
+                <p>We’re a WordPress Theme Development company .
+                    With more than ten years of knowledge and expertise.
+                </p>
+            </div>
+
+            <div class="underline"></div>
+
+            <!-- middle part-->
+            <div class="portfolio-links">
+                <a href="#" class="active">All Work</a>
+                <a href="#">Art Direction</a>
+                <a href="#">Branding</a>
+                <a href="#">Design</a>
+                <a href="#">Web</a>
+            </div>
+
+            <!-- bottom part -->
+            <div class="gallery">
+                <div class="show-column1"><img src="./images/my image/art direction rock.jpg" alt="project image"></div>
+
+                <div class="show-column1"><img src="./images/my image/branding in time.jpg" alt="project image"></div>
+
+                <div class="show-column1"><img src="./images/my image/design mockup.jpg" alt="project image"></div>
+
+                <div class="show-column1"><img src="./images/my image/web treasure.jpg" alt="project image"></div>
+
+                <div class="show-column1"><img src="./images/my image/design pencil.jpg" alt="project image"></div>
+
+                <div class="show-column1"><img src="./images/my image/branding handcfaft.jpg" alt="project image"></div>
+
+                <div class="show-column1"><img src="./images/my image/web focus.jpg" alt="project image"></div>
+
+                <div class="show-column1"><img src="./images/my image/art direction daily note.jpg" alt="project image">
+                </div>
+            </div>
+
+        </section>
+
+        <!--skills section-->
+        <section id="Skills-Section">
+            <!-- top part -->
+
+            <!--left side-->
+            <div class="skills-left">
+                <span>I'M EXPERT ON</span>
+                <h1>Let's Work<br>Together</h1>
+                <p>I'm a passionate web developer with over 5 years of experience in creating stunning websites and
+                    applications.
+                    My journey in web development started with a simple curiosity about how websites work, and it
+                    quickly turned into a lifelong passion. I specialize in front-end development, using technologies
+                    like HTML, CSS, and JavaScript to bring designs to life. Over the years, I've had the privilege of
+                    working on a wide range of projects, from small business websites to large-scale applications. My
+                    goal is to create user-friendly and visually appealing digital experiences that leave a lasting
+                    impression.</p>
+                <button>Hire Me Now</button>
+            </div>
+
+
+            <!--right side-->
+            <div class="skills-right">
+
+                <div class="skill">
+                    <p>Node JS</p>
+                    <div class="progress">
+                        <div class="progress-bar" style="width:88%;">
+                            <span>88%</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill">
+                    <p>Phyton</p>
+                    <div class="progress">
+                        <div class="progress-bar" style="width:81%;">
+                            <span>81%</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill">
+                    <p>Laravel</p>
+                    <div class="progress">
+                        <div class="progress-bar" style="width:70%;">
+                            <span>70%</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill">
+                    <p>SEO</p>
+                    <div class="progress">
+                        <div class="progress-bar" style="width:90%;">
+                            <span>90%</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!--contact section-->
+        <section id="contact">
+            <!-- top part -->
+            <div class="contact-top">
+                <span>HAVE ANY QUERY</span> 
+                <h2>Contact Me</h2>
+                <p>I'm a passionate web developer with over 5 years of experience in creating stunning websites and
+                    applications. My journey in web development started with a simple curiosity about how websites work,
+                    and it quickly turned into a lifelong passion. I specialize in front-end development, using
+                    technologies like HTML, CSS,
+                    <br>
+                    and JavaScript to bring designs to life. Over the years, I've had the
+                    privilege of working on a wide range of projects, from small business websites to large-scale
+                    applications. My goal is to create user-friendly and visually appealing digital experiences that
+                    leave a lasting impression.</p>
+
+                    <div class="underline"></div>
+
+                <div class="contact-info-icons"> 
+                    
+                        <div class="info-box">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <p>Locate Us:King street, melbourne, Victoria</p>
+                        </div>
+
+                       <div class="info-box">
+                        <i class="fa-solid fa-phone-flip"></i>
+                        <P>Office:+01-2385-6789</P>
+                       </div>
+
+                         <div class="info-box">
+                            <i class="fa-solid fa-envelope"></i>
+                             <p>Get in touch:contact@exampe.com</p>
+                         </div>
+            </div>  
+            </div>
+                
+
+
+            
+
+            <!-- bottom part -->
+           <form class="contact-form"> 
+            <div class="front-row"> 
+                <input type="text" placeholder="Your Name">
+                <input type="email" placeholder="Your Email">
+            </div>
+
+            <input type="text" placeholder="Your Subject">
+          <textarea placeholder="Your Message"></textarea>
+
+          <button type="submit">Send Message</button>
+           </form>
+        </section>
+
+        <!--blog section-->
+        <section id="blog">
+
+            <!-- top part-->
+            <div class="blog-header">
+                <p class="blog-small">Latest Post</p>
+                <h2 class="blog-title">Latest blog</h2>
+                <p class="blog-desc">Lorem Ipsum is simply dummy text of the printing<br>and typesetting industry. Lorem
+                    Ipsum standard dummy
+                    text.</p>
+            </div>
+            <div class="underline"></div>
+
+            <!-- bottom part -->
+
+            <div class="blog-container">
+                <div class="blog-card">
+                    <img src="./images/blog.jpg" alt="Blog Image 1">
+                    <div class="blog-content">
+                        <p class="meta">By admin.Tuesday.3</p>
+                        <h3>Ten Secrets You Will Not Want To Know</h3>
+                        <a href="#">Read More →</a>
+                    </div>
+                </div>  
+
+                    <!-- Blog Post 2 -->
+                    <div class="blog-card">
+                        <img src="./images/blog-2.jpg" alt="Blog Image 2">
+                            <p class="meta">By admin.Wednesday</p>
+                            <span> | 3 comments</span>
+                            <h3>You’ve gotta dance like there’s nobody watching</h3>
+                            <a href="#">Read More →</a>
+                    </div>  
+
+
+
+                        <!-- Blog Post 3 -->
+                    <div class="blog-card">
+                        <img src="./images/blog-1.jpg" alt="Blog Image 3">
+
+                        <div class="blog-content">
+                            <p class="meta">By admin.Saturday</p>
+                            <span> | 3 comments</span>
+                            <h3>I must explain to you how all this mistaken idea</h3>
+                            <a href="#">Read More →</a>
+                        </div>
+                    </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- footer part -->
+    <footer>
         <div>
-            <p>Latest Post</p>
-            <h2>Latest Blog</h2>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum standard dummy text.</p>
+            <img src="./images/logo.png" alt="Logo">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor inci- didunt ut labore et
+                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exe- rcitation ullamco laboris nisi ut
+                aliquip ex ea commodo consequat.</p>
         </div>
+        <div>
+            <div class="social"><i class="fa-brands fa-facebook"></i></div>
+            <div class="social"><i class="fa-brands fa-x-twitter"></i></div>
+            <div class="social"><i class="fa-brands fa-instagram"></i></div>
+            <div class="social"><i class="fa-brands fa-pinterest"></i></div>
 
-
-        <!-- bottom part -->
-          <article>
-        <img src="./images/blog.jpg" alt="Blog Image 1">
+        </div>
 
         <div>
-            <span>By <strong>admin</strong></span>
-            <span> | Tuesday</span>
-            <span> | 3 comments</span>
+            <p>&copy; 2026 Your Company Name. All rights reserved.</p>
         </div>
-
-        <h2>Ten Secrets You Will Not Want To Know</h2>
-
-        <a href="#">Read More →</a>
-    </article>
-
-
-    <!-- Blog Post 2 -->
-    <article>
-        <img src="./images/blog-2.jpg" alt="Blog Image 2">
-
-        <div>
-            <span>By <strong>admin</strong></span>
-            <span> | Wednesday</span>
-            <span> | 3 comments</span>
-        </div>
-
-        <h2>You’ve gotta dance like there’s nobody watching</h2>
-
-        <a href="#">Read More →</a>
-    </article>
-
-
-    <!-- Blog Post 3 -->
-    <article>
-        <img src="./images/blog-1.jpg" alt="Blog Image 3">
-
-        <div>
-            <span>By <strong>admin</strong></span>
-            <span> | Saturday</span>
-            <span> | 3 comments</span>
-        </div>
-
-        <h2>I must explain to you how all this mistaken idea</h2>
-
-        <a href="#">Read More →</a>
-    </article>
-    </section>
-
- </main>
-
- <!-- footer part -->
-  <footer>
-    <div>
-        <img src="./images/logo.png" alt="Logo">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor inci- didunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exe- rcitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-    </div>
-    <div>
-        <div class="social"><i class="fa-brands fa-facebook"></i></div>
-        <div class="social"><i class="fa-brands fa-x-twitter"></i></div>
-        <div class="social"><i class="fa-brands fa-instagram"></i></div>
-        <div class="social"><i class="fa-brands fa-pinterest"></i></div>
-
-    </div>
-
-    <div>
-        <p>&copy; 2026 Your Company Name. All rights reserved.</p>
-    </div>
-  </footer>
+    </footer>
 
 
 </body>
